@@ -1,0 +1,177 @@
+header{
+    border: 4px solid red;
+    border-radius:20px;
+    height: 200px;
+}
+body{
+    justify-content: center;
+    background-color:  #fff;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@font-face {
+    font-family: 'dayrom1';
+    src: url(../fonts/dayrom.woff);
+}
+h2{
+    font-size: 1.7rem;
+    margin-left: 10px;
+    text-align: left;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'ballpark1';
+    src: url(../fonts/ballpark.woff);
+}
+.ballpark{
+    text-align: left;
+    font-size: 60px;
+    font-family: 'ballpark1';
+}
+nav{
+    word-spacing:15px;
+    border-radius: 13px;
+    border: 5px solid blue;
+    padding-left: 30px;
+    margin:-80px 0px 0px 500px;
+    width: 35%;
+    box-shadow: 10px 10px 7px #000000 ;
+    font-size: 25px;
+    height: 50px;
+    font-family: 'dayrom1';
+    text-transform: uppercase;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.logo1{
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+.logo3{
+    width: 90px;
+    height: 90px;
+}
+#banner_image{
+    background-image: url("sanfrancisco.jpg");
+    height: 220px;
+    border-radius: 20px;
+    border:4px solid  #ec810b;
+    background-size: cover;
+    margin-top: 10px;
+
+}
+#banner_description{
+    text-align: left;
+    height: 40px;
+    width: 100%;
+    background-color:rgba(25,25,25,0.8);
+    margin-top: 160px;
+    padding-top: 20px;
+    border-radius: 20px;
+    color:white;
+}
+section{
+    border: 4px solid green;
+    border-radius: 20px;
+    margin-top: 11px;
+}
+article{
+    vertical-align: top;
+    text-align: left;
+    width: 65%;
+    display: inline-block;
+    border: 4px solid #8e3f73;
+    border-radius: 20px;
+    margin: 5px;
+}
+aside{
+
+    height: 50%;
+    display: inline-block;
+    background-color: #706b64;
+    border: 4px solid #d80072;
+    border-radius: 20px;
+    width: 30%;
+    margin: 5px;
+    color: white;
+
+}
+.uppercase{
+    text-transform: uppercase;
+    font-family: 'dayrom1';
+}
+.red_button{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -5px;
+    border: 4px solid rgb(180,0,0);
+    padding: 3px;
+    padding-right: 20px;
+    color: white;
+    background: linear-gradient(rgb(255,0,0) ,rgb(50,0,0));
+    border-radius: 4px;
+    margin-bottom: 20%;
+    font-weight: bold;
+    text-align: right;
+}
+#tweet{
+    display: inline-block;
+    vertical-align: top;
+    border: 4px solid #000000;
+    border-radius:20px;
+    height: 180px;
+    margin:5px;
+    width: 30%;
+}
+#my_pictures{
+    display: inline-block;
+    vertical-align: top;
+    border: 4px solid #000000;
+    border-radius:20px;
+    height: 180px;
+    margin:5px;
+    width: 30%;
+
+
+}
+.inline{
+    display: inline-block;
+    text-align: left;
+    list-style: none;
+}
+#my_friends{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    border: 4px solid #000000;
+    border-radius:20px;
+    height: 180px;
+    margin:5px;
+}
+footer{
+    border: 4px solid darkblue;
+    border-radius:20px;
+    margin:5px;
+}
+#main_wrapper{
+    max-width: 1400px;
+    background-color: #fff9dd;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav{
+    margin-top: 7px;
+    margin-left: -33px;
+}
+.strelka:before{
+    content: url("../images/external_link.png");
+    padding-right: 8px;
+
+}
+
